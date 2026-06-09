@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BotNeverSleeps Labs</title>
+<meta name="description" content="BotNeverSleeps Labs — indie mobile apps powered by AI.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #0E0E12;
+    color: #E8E8E8;
+    min-height: 100vh;
+  }
+  header {
+    padding: 2rem 2rem 0;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  .logo {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: -0.01em;
+  }
+  .logo span { color: #7F77DD; }
+  .hero {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 5rem 2rem 3rem;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+    color: #9A9AA8;
+    max-width: 480px;
+    line-height: 1.7;
+  }
+  .apps {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 1rem 2rem 4rem;
+  }
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #5F5E5A;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+  .app-card {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    background: #17171D;
+    border: 0.5px solid #2A2A35;
+    border-radius: 16px;
+    padding: 1.25rem 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s;
+    max-width: 480px;
+  }
+  .app-card:hover { border-color: #7F77DD; }
+  .app-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .app-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .app-info { flex: 1; }
+  .app-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.2rem;
+  }
+  .app-desc {
+    font-size: 0.875rem;
+    color: #9A9AA8;
+    line-height: 1.5;
+  }
+  .app-badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #7F77DD;
+    background: rgba(127, 119, 221, 0.12);
+    padding: 3px 8px;
+    border-radius: 6px;
+    margin-top: 0.4rem;
+    display: inline-block;
+  }
+  footer {
+    border-top: 0.5px solid #1E1E28;
+    padding: 2rem;
+    text-align: center;
+    color: #5F5E5A;
+    font-size: 0.8rem;
+  }
+  footer a { color: #5F5E5A; text-decoration: none; }
+  footer a:hover { color: #9A9AA8; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">BotNever<span>Sleeps</span> Labs</div>
+</header>
+
+<section class="hero">
+  <h1>Indie apps,<br>powered by AI.</h1>
+  <p>Small studio building focused mobile tools for everyday problems. Each app does one thing well.</p>
+</section>
+
+<section class="apps">
+  <p class="section-label">Apps</p>
+  <a href="https://docaro.botneversleeps.com" class="app-card">
+    <div class="app-icon">
+      <img src="mainapp_icon_1024_resized.png" alt="Docaro app icon">
+    </div>
+    <div class="app-info">
+      <div class="app-name">Docaro</div>
+      <div class="app-desc">Digital car service logbook with AI receipt recognition.</div>
+      <span class="app-badge">iOS · Coming soon on Android</span>
+    </div>
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 BotNeverSleeps Labs &nbsp;·&nbsp; <a href="mailto:support@botneversleeps.com">support@botneversleeps.com</a></p>
+</footer>
+
+</body>
+</html>
